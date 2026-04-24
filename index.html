@@ -604,13 +604,14 @@
 
 <!-- ──── NAVIGATION ──── -->
 <nav id="navbar">
-  <a href="#home" class="nav-logo">CMP<span>Lab</span></a>
+  <a href="#home" class="nav-logo">M4G</a>
   <ul class="nav-links" id="navLinks">
     <li><a href="#home" class="active">Home</a></li>
     <li><a href="#news">News</a></li>
     <li><a href="#research">Research</a></li>
     <li><a href="#publications">Publications</a></li>
     <li><a href="#team">Team</a></li>
+    <li><a href="#collaborators">Collaborators</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <button class="hamburger" id="hamburger" aria-label="Toggle menu">
@@ -630,15 +631,15 @@
     </div>
     <div class="hero-stats">
       <div>
-        <div class="stat-num">42</div>
+        <div class="stat-num">7</div>
         <div class="stat-label">Publications</div>
       </div>
       <div>
-        <div class="stat-num">12</div>
+        <div class="stat-num">6</div>
         <div class="stat-label">Group Members</div>
       </div>
       <div>
-        <div class="stat-num">7</div>
+        <div class="stat-num">5</div>
         <div class="stat-label">Active Projects</div>
       </div>
     </div>
@@ -851,16 +852,18 @@
     </div>
     <div class="pub-filters reveal">
       <button class="pub-filter-btn active" onclick="filterPubs(this,'all')">All</button>
+      <button class="pub-filter-btn" onclick="filterPubs(this,'2026')">2026</button>
       <button class="pub-filter-btn" onclick="filterPubs(this,'2025')">2025</button>
       <button class="pub-filter-btn" onclick="filterPubs(this,'2024')">2024</button>
       <button class="pub-filter-btn" onclick="filterPubs(this,'2023')">2023</button>
+      <button class="pub-filter-btn" onclick="filterPubs(this,'2022')">2022</button>
     </div>
     <div class="pub-list" id="pubList">
-      <div class="pub-item" data-year="2025">
-        <span class="pub-year-badge">2025</span>
+      <div class="pub-item" data-year="2022">
+        <span class="pub-year-badge">2022</span>
         <div>
-          <h4>Non-Abelian anyons and topological quantum computation in fractional quantum Hall systems</h4>
-          <p class="pub-meta">A. R. Chen, S. L. Park, J. Watanabe, M. Fernández · <span class="journal">Physical Review Letters</span> 134, 076801 <span class="pub-highlight">Editor's Suggestion</span></p>
+          <h4>Nonlinear elastic analysis of 2D materials of arbitrary symmetries with application to black phosphorus</h4>
+          <p class="pub-meta">S.R. Maalouf, S.S.Vel · <span class="journal">Mechanics of Materials</span> 165, 104159</p>
         </div>
       </div>
       <div class="pub-item" data-year="2025">
@@ -934,10 +937,9 @@
         <p class="pi-name">Dr. Serge R. Maalouf</p>
         <p class="pi-bio">Assistant Professor of Mechanical Engineering at the Lebanese American University (LAU). PhD from the University of Maine (2025), MA in mathematics. Research interests span the nonlinear elastic behavior of nanomaterials, straintronics and electro-mechanical coupling in nanomaterials and multiphysics simulations.</p>
         <div class="pi-links">
-          <a href="#" class="pi-link">Google Scholar</a>
-          <a href="#" class="pi-link">arXiv</a>
+          <a href="https://scholar.google.com/citations?user=wu6htyYAAAAJ&hl=en" class="pi-link">Google Scholar</a>
           <a href="#" class="pi-link">CV</a>
-          <a href="mailto:a.chen@university.edu" class="pi-link">Email</a>
+          <a href="mailto:serge.maalouf@lau.edu.lb" class="pi-link">Email</a>
         </div>
       </div>
     </div>
@@ -955,20 +957,48 @@
     <!-- Undergrads -->
     <p class="team-group-title">Undergraduate Researchers</p>
     <div class="members-grid">
-      <div class="member-card reveal">
-        <div class="member-avatar av-gray">OH</div>
-        <p class="member-name">Omar Hassan</p>
-        <p class="member-role">Senior Thesis</p>
-        <p class="member-topic">Topological edge modes</p>
+    <div class="member-card reveal">
+        <div class="member-avatar av-teal">SD</div>
+        <p class="member-name">Samir Daou</p>
+        <p class="member-role">Undergraduate Student</p>
+        <p class="member-topic">Straintronics in 2D materials</p>
       </div>
       <div class="member-card reveal">
-        <div class="member-avatar av-blue">CL</div>
-        <p class="member-name">Cécile Laurent</p>
-        <p class="member-role">Junior Researcher</p>
-        <p class="member-topic">Numerical simulations</p>
+        <div class="member-avatar av-gray">KI</div>
+        <p class="member-name">Kiryl Irani</p>
+        <p class="member-role">Undergraduate Student</p>
+        <p class="member-topic">Mechanical Properties of Heterostructures</p>
+      </div>
+      <div class="member-card reveal">
+        <div class="member-avatar av-blue">RK</div>
+        <p class="member-name">Roy El-Khoury</p>
+        <p class="member-role">Undergraduate Student</p>
+        <p class="member-topic">Mechanical Properties of Heterostructures</p>
+      </div>
+      <div class="member-card reveal">
+        <div class="member-avatar av-teal">JPA</div>
+        <p class="member-name">Jean-Paul Bou-Assaf</p>
+        <p class="member-role">Undergraduate Student</p>
+        <p class="member-topic">Mechanical Properties of Heterostructures</p>
+      </div>
+      <div class="member-card reveal">
+        <div class="member-avatar av-blue">AM</div>
+        <p class="member-name">Anita Massoud</p>
+        <p class="member-role">Undergraduate Student</p>
+        <p class="member-topic">Mechanical Properties of Heterostructures</p>
       </div>
     </div>
   </div>
+</section>
+
+<!-- ──── COLLABORATORS ──── -->
+<section id="collaborators">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">People</p>
+      <h2 class="section-title">Collaborators</h2>
+    </div>
+
 </section>
 
 <!-- ──── CONTACT / JOIN ──── -->
@@ -978,7 +1008,7 @@
       <h3>Find Us</h3>
       <div class="contact-detail">
         <div class="contact-detail-icon">📍</div>
-        <div>Department of Physics, Room 4B-210<br/>University Science Building<br/>Cambridge, MA 02139</div>
+        <div>Bassil 401,<br/>Lebanese American University,<br/>Byblos, Lebanon</div>
       </div>
       <div class="contact-detail">
         <div class="contact-detail-icon">✉️</div>
@@ -986,17 +1016,17 @@
       </div>
       <div class="contact-detail">
         <div class="contact-detail-icon">📞</div>
-        <div>+1 (617) 555-0189</div>
+        <div>+961-9-547 254 ext. 2059</div>
       </div>
       <div class="contact-detail">
         <div class="contact-detail-icon">🕐</div>
-        <div>Office hours: Tues & Thurs 2–4 PM<br/>or by appointment</div>
+        <div>Office hours: By appointment</div>
       </div>
     </div>
 
     <div class="join-box">
       <h4>Open Positions</h4>
-      <p>We are actively recruiting motivated PhD students for Fall 2025 and one postdoctoral researcher with expertise in tensor network methods or topological materials. Please attach your CV, a brief research statement, and two references in your message.</p>
+      <p></p>
     </div>
   </div>
 </section>
@@ -1006,9 +1036,7 @@
   <p>© 2026 Maalouf Multiscale and Multiphysics Modeling of Materials Group · Department of Industrial and Mechanical Engineering · Lebanese American University, Byblos, Lebanon</p>
   <p style="margin-top:0.4rem;">
     <a href="https://scholar.google.com/citations?user=wu6htyYAAAAJ&hl=en">Google Scholar</a> &nbsp;·&nbsp;
-    <a href="#">arXiv</a> &nbsp;·&nbsp;
-    <a href="#">GitHub</a> &nbsp;·&nbsp;
-    <a href="#">Department Page</a>
+    <a href="https://soe.lau.edu.lb/about/people/serge-r-maalouf.php">Department Page</a>
   </p>
 </footer>
 
